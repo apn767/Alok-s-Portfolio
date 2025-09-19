@@ -291,7 +291,7 @@ header {
 }
 .right-card .gallery {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   justify-items: center;
   align-items: start;
@@ -306,7 +306,7 @@ header {
 }
 .right-card .gallery-solar {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   justify-items: center;
   align-items: start;
